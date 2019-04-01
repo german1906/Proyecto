@@ -48,7 +48,7 @@ public class Usuario {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	@Override
+	@Override 
 	public String toString() {
 		return "Usuario [id_persona=" + id_usuario + ", nombre=" + nombre + ", apellido=" + apellido + ", email="
 				+ email + "]";
